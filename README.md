@@ -336,8 +336,8 @@ case2. [ 다중화 master cluser 구성](/README.md##case-2-다중-contorl-plain
       * advertiseAddress : API server IP ( master IP )
         * 해당 master 노드의 IP
       * controlPlaneEndpoint : endpoint IP ( master IP ) , port는 반드시 6443으로 설정
-      * serviceSubnet : ${SERVICE_IP_POOL}/${CIDR}
-      * podSubnet : ${POD_IP_POOL}/${CIDR}
+      * serviceSubnet : ${SERVICE_IP_POOL}/${CIDR} ex)172.1.1.0/24
+      * podSubnet : ${POD_IP_POOL}/${CIDR} ex)10.1.1.0/24
       * imageRepository : ${registry}/docker_hub_name
       * cgroupDriver: cgroup driver 설정
       
