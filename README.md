@@ -1,4 +1,5 @@
 ## 구성 요소 및 버전
+* OS: CentOS8.2 이상
 * cri-o (v1.19.1) or docker-ce(v20.10.5)
 * kubeadm, kubelet, kubectl (v1.19.4)
 * k8s.gcr.io/kube-apiserver:v1.19.4
