@@ -301,7 +301,9 @@ case2. [ 다중화 master cluser 구성](/README.md##case-2-다중-contorl-plain
 	EOF
 
 	sudo yum install -y kubeadm-1.19.4-0 kubelet-1.19.4-0 kubectl-1.19.4-0
-	
+ 
+	sudo yum install -y cri-tools-1.19.0-0
+ 
 	sudo systemctl enable kubelet
 	```  
 
